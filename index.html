@@ -1,0 +1,159 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Info Ruta</title>
+    
+    <meta name="description" content="EL FLUJOGRAMA INTERACTIVO ES" />
+    <meta name="author" content="Guatecambia" />
+
+    <link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+    <link href="inforuta.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body class="impress-not-supported">
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>,  or <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress" data-autoplay="11">
+        <div id="hola_" class="step" data-x="-1000" data-y="-1000" data-goto-next="hola_">
+            <p>¡Hola! En InfoRuta queremos ayudarte a que te sea más fácil hacer tu solicitud de Información Pública. Aquí encontrarás cuál es el proceso, tips y todo lo que necesitas saber...</p>
+            <button class="goto" id="solicitudesTipo">Hacer una solicitud</button>
+            <button class="goto" id="aprenderProceso">Aprender sobre el proceso</button>
+        </div>
+        <div id="aprenderProceso_" class="step" data-x="2000" data-y="-500" data-z="-1500" data-goto-next="aprenderProceso_">
+            <button class="goto" id="paraEmpezar">1<br/>Lo que debes saber</button>
+            <button class="goto" id="solicitudesTipoProceso">2<br/>¡Pedir la Info!</button>
+            <button class="goto" id="esperar">3<br/>El tiempo en el que te la dan</button>
+            <button class="goto" id="overview">4<br/>Así te pueden responder</button>
+            <button class="goto" id="overview">5<br/>No quedé satisfecho</button>
+            <button class="goto" id="overview">6<br/>Amparo</button>
+        </div>
+        <div id="paraEmpezar_" class="step" data-x="-1000" data-y="500" data-z="-1500">
+            <h2>Para empezar debes saber...</h2>
+            <p>La <b class="scaling">información pública</b> es toda aquella información que generan las instituciones que manejan recursos del Estado.</p>
+            <p>Además hay información administrativa que por ley deben de publicar en su página web, esta ni deberías tener que pedirla.</p>
+        </div>    
+        <div id="sujetosObligados_" class="step" data-x="-1000" data-y="500" data-z="-10500">
+            <h2>¡Importante!</h2>
+            <p><b>Le puedes pedir información</b> a cualquiera que maneje, administre o ejecute dinero o bienes de Estado.</p>
+            <ul>
+                <li>Sat</li>
+                <li>Tu Municipalidad</li>
+                <li>IGSS</li>
+            </ul>
+            <ul>
+                <li>Mineras</li>
+                <li>Hidroeléctricas</li>
+                <li>Y otras ...</li>
+            </ul>
+        </div>  
+        <div id="tomaEnCuenta_" class="step" data-x="-1000" data-y="500" data-z="-20500" data-goto-next="solicitudesTipoProceso_">
+            <h2>¡Precaución!</h2>
+            <p>Toma en cuenta que hay información que <b>no te pueden dar</b></p>
+            <ul>
+                <li><b>Confidencial:</b> Información a la que no tienes acceso nunca por seguridad de Estado y de cada persona.</li>
+                <li><b>Reservada:</b> Información a la que no tienes acceso por un tiempo definido, por seguridad de un suceso específico.</li>
+            </ul>
+        </div> 
+        <div id="solicitudesTipo_" class="step" data-x="2000" data-y="-1300" data-z="-1500" data-goto-next="opcionesSolicitud_" data-goto-prev="hola_">
+            <h2>Estas son las formas en las que puedes hacer tu solicitud</h2>
+            <img src="img/at.jpg"><p>Correo electrónico</p>
+            <img src="img/http.jpg"><p>Sitio web de la entidad</p>
+            <img src="img/paper.jpg"><p>Escrita y entregarla personalmente a la Unidad de Acceso a la información</p>
+            <img src="img/asking.jpg"><p>Oral</p>
+        </div>
+        <div id="opcionesSolicitud_" class="step" data-goto-next="yeey_" data-x="2000" data-y="-1300" data-z="-10500" >
+            <p>Si tu solicitud es para alguna Municipalidad, puedes hacerla en <a href="http://publitopia.munisabiertas.org">Publitopia</a></p>
+            <p>Pero si es para otra insitución</p>
+            <button id="yeey">Descarga y llena el formulario</button>
+            <h4>¡Ojo con esto</h4>
+            <ol>
+                <li>Debes asegurarte que la institución sea la que correcta. </li>
+                <li>Sé claro en lo que quieres pedir. </li>
+            </ol>
+        </div>
+        <div id="yeey_" class="step" data-goto-next="hola_" data-x="2000" data-y="-1300" data-z="-20500">
+            <h2>¡Yeey!</h2>
+            <p>¡Ahora sólo te falta llenar el formato y entregarlo a la institución!</p>
+            <p>Si te quedó alguna duda del proceso o de qué sigue, ingresa <a href="#aprenderProceso">aquí</a> y sigamos aprendiendo.</p>
+        </div>
+        <div id="solicitudesTipoProceso_" class="step" data-x="2000" data-y="500" data-z="-10500" data-goto-next="esFacil_" data-goto-prev="hola_">
+            <h2>Estas son las formas en las que puedes hacer tu solicitud</h2>
+            <img src="img/at.jpg"><p>Correo electrónico</p>
+            <img src="img/http.jpg"><p>Sitio web de la entidad</p>
+            <img src="img/paper.jpg"><p>Escrita y entregarla personalmente a la Unidad de Acceso a la información</p>
+            <img src="img/asking.jpg"><p>Oral</p>
+        </div>
+        <div id="esFacil_" class="step" data-x="2000" data-y="500" data-z="-20500" data-goto-next="esperar_">
+            <h2>¡Es bien fácil!</h2>
+            <ol>
+                <li>Sé claro en lo que quieres pedir.</li>
+                <li>Asegúrate que la institución sea la que correcta. </li>
+                <li>Si quieres hacerla a Municipalidades puedes utilizar <a href="http://publitopia.munisabiertas.org">Publitopia</a></li>
+                <li>Si es a otra institución puedes descargar nuestro formato de solicitud.</li>
+                <li>Si quieres puedes hablar con la PDH, para que le de seguimiento a tu proceso. </li>
+            </ol>
+        </div>
+        <div id="esperar_" class="step" data-goto-next="laRespuesta_" data-x="5000" data-y="500" data-z="-10500">
+            <h2>¡A esperar se ha dicho!</h2>
+            <p>Según la ley deben darte la información en 10 días hábiles. <br/>¡Así que saca tu calendario y cuenta los días que tienen para responderte! </p>
+        </div>
+        <div id="laRespuesta_" class="step" data-x="5000" data-y="500" data-z="-20500">
+            <h2>Llegó la respuesta ¿Cuál fue?</h2>
+        </div>
+        <div id="prorroga_" class="step" data-x="8000" data-y="500" data-z="-1500">
+            <h2>¡No entres en pánico! <br/>Solo es una prórroga</h2>
+            <p>Las instituciones pueden pedirte 10 días más para darte la información ¡No es nada malo!</p>
+            <p>Pero precaución, la prórroga solo pueden pedírtela en los primeros 8 días desde que realizaste tu solicitud.</p>
+        </div>
+        <div id="revisarInfo_">
+            <h2>¿Todo bien con tu información?</h2>
+        </div>
+        <div class="step skip" data-scale="5" data-x="-15000" data-y="-10000" data-z="-21000">
+            <img src="img/city.svg" style="position: absolute; left: 0px; top: 0px; z-index: -1; width: 9000px;" />
+        </div>
+
+        <!--div id="laDieron_" class="step">
+            <h2>¡Te la dieron!</h2>
+            <p>¡Esta es una muy buena señal! </p>
+            <p>Pero… te recomendamos revisar la información. Ya que pueden dártela incompleta, no entendieron tu solicitud y te dieron otra información.</p>
+            <p>Si esto te sucede puedes pedir un </p>
+            <button>RECURSO DE REVISIÓN</button>
+        </div>
+        <div id="inconformidad_" class="step">
+            <p>Estas inconforme con la respuesta que te dieron porqué: </p>
+            <ul>
+                <li>La información es parcial</li>
+                <li>No es lo que pediste</li>
+                <li>Está incorrecta </li>
+                <li>Te la negaron injustificadamente </li>
+            </ul>
+            <p>Si te pasó algo así</p>
+            <p>Puedes hacer un </p>
+            <button>RECURSO DE REVISIÓN</button>
+        </div-->
+        <div id="overview_" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10"></div>
+    </div>
+    <script src="js/impress.js"></script>
+    <script>
+        var api = impress("impress");
+        api.init();
+        buttons = document.querySelectorAll(".goto");
+        var i=0;
+        for (i = 0; i < buttons.length; i++) {
+            (function(index) {
+                buttons[index].addEventListener("click", function(event) {
+                    event.stopPropagation();
+                    api.goto(buttons[index].id+"_");
+                });
+            })(i);
+        }
+     </script>
+</body>
+</html>
