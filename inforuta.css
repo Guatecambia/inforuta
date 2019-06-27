@@ -136,7 +136,7 @@ i, em { font-style: italic }
     ... and give links a nice look.
 */
 a {
-    color: inherit;
+    color: #00dd83;
     text-decoration: none;
     padding: 0 0.1em;
     background: rgba(255,255,255,0.5);
@@ -446,6 +446,13 @@ button.arrow-green {
 #tomaEnCuentaInfo_ button {
     padding-left:25px;
 }
+#tomaEnCuentaInfo_ p {
+    font-size: 0.65em;
+    font-weight:normal;
+}
+#tomaEnCuentaInfo_ span.strong {
+    font-weight:bolder;
+}
 
 /*p9*/
 
@@ -591,6 +598,12 @@ button.arrow-green {
     width:45%;
     float:left;
 }
+#noExiste_ img {
+    width:70%;
+    display:block;
+    margin:0 auto;
+}
+
 /*p19*/
 #prorroga_ p {
     width: 45%;
