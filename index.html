@@ -4,141 +4,540 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Info Ruta</title>
+    <title>Inforuta</title>
     
-    <meta name="description" content="EL FLUJOGRAMA INTERACTIVO ES" />
     <meta name="author" content="Guatecambia" />
 
-    <link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,900" rel="stylesheet">
     <link href="inforuta.css" rel="stylesheet" />
     
-    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    
+    <meta name="og:title" content="Inforuta">
+    <meta name="description" content="Inforuta">
+    <meta name="og:description" content="Inforuta">
+    <meta name="og:image" content="http://inforuta.munisabiertas.org/img/inforuta.jpg">
+    <meta name="og:url" content="http://inforuta.munisabiertas.org">
+    <meta name="og:site_name" content="Inforuta">
+    <meta name="og:type" content="website">
+    
 </head>
 <body class="impress-not-supported">
     <div class="fallback-message">
-        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-        <p>For the best experience please use the latest <b>Chrome</b>,  or <b>Firefox</b> browser.</p>
+        <p>Por favor usa una versión moderna de Chrome o Firefox para navegar de una mejor manera Inforuta</p>
     </div>
-    <div id="impress" data-autoplay="11">
-        <div id="hola_" class="step" data-x="-1000" data-y="-1000" data-goto-next="hola_">
-            <p>¡Hola! En InfoRuta queremos ayudarte a que te sea más fácil hacer tu solicitud de Información Pública. Aquí encontrarás cuál es el proceso, tips y todo lo que necesitas saber...</p>
-            <button class="goto" id="solicitudesTipo">Hacer una solicitud</button>
-            <button class="goto" id="aprenderProceso">Aprender sobre el proceso</button>
-        </div>
-        <div id="aprenderProceso_" class="step" data-x="2000" data-y="-500" data-z="-1500" data-goto-next="aprenderProceso_">
-            <button class="goto" id="paraEmpezar">1<br/>Lo que debes saber</button>
-            <button class="goto" id="solicitudesTipoProceso">2<br/>¡Pedir la Info!</button>
-            <button class="goto" id="esperar">3<br/>El tiempo en el que te la dan</button>
-            <button class="goto" id="overview">4<br/>Así te pueden responder</button>
-            <button class="goto" id="overview">5<br/>No quedé satisfecho</button>
-            <button class="goto" id="overview">6<br/>Amparo</button>
-        </div>
-        <div id="paraEmpezar_" class="step" data-x="-1000" data-y="500" data-z="-1500">
-            <h2>Para empezar debes saber...</h2>
-            <p>La <b class="scaling">información pública</b> es toda aquella información que generan las instituciones que manejan recursos del Estado.</p>
-            <p>Además hay información administrativa que por ley deben de publicar en su página web, esta ni deberías tener que pedirla.</p>
-        </div>    
-        <div id="sujetosObligados_" class="step" data-x="-1000" data-y="500" data-z="-10500">
-            <h2>¡Importante!</h2>
-            <p><b>Le puedes pedir información</b> a cualquiera que maneje, administre o ejecute dinero o bienes de Estado.</p>
-            <ul>
-                <li>Sat</li>
-                <li>Tu Municipalidad</li>
-                <li>IGSS</li>
-            </ul>
-            <ul>
-                <li>Mineras</li>
-                <li>Hidroeléctricas</li>
-                <li>Y otras ...</li>
-            </ul>
-        </div>  
-        <div id="tomaEnCuenta_" class="step" data-x="-1000" data-y="500" data-z="-20500" data-goto-next="solicitudesTipoProceso_">
-            <h2>¡Precaución!</h2>
-            <p>Toma en cuenta que hay información que <b>no te pueden dar</b></p>
-            <ul>
-                <li><b>Confidencial:</b> Información a la que no tienes acceso nunca por seguridad de Estado y de cada persona.</li>
-                <li><b>Reservada:</b> Información a la que no tienes acceso por un tiempo definido, por seguridad de un suceso específico.</li>
-            </ul>
-        </div> 
-        <div id="solicitudesTipo_" class="step" data-x="2000" data-y="-1300" data-z="-1500" data-goto-next="opcionesSolicitud_" data-goto-prev="hola_">
-            <h2>Estas son las formas en las que puedes hacer tu solicitud</h2>
-            <img src="img/at.jpg"><p>Correo electrónico</p>
-            <img src="img/http.jpg"><p>Sitio web de la entidad</p>
-            <img src="img/paper.jpg"><p>Escrita y entregarla personalmente a la Unidad de Acceso a la información</p>
-            <img src="img/asking.jpg"><p>Oral</p>
-        </div>
-        <div id="opcionesSolicitud_" class="step" data-goto-next="yeey_" data-x="2000" data-y="-1300" data-z="-10500" >
-            <p>Si tu solicitud es para alguna Municipalidad, puedes hacerla en <a href="http://publitopia.munisabiertas.org">Publitopia</a></p>
-            <p>Pero si es para otra insitución</p>
-            <button id="yeey">Descarga y llena el formulario</button>
-            <h4>¡Ojo con esto</h4>
-            <ol>
-                <li>Debes asegurarte que la institución sea la que correcta. </li>
-                <li>Sé claro en lo que quieres pedir. </li>
-            </ol>
-        </div>
-        <div id="yeey_" class="step" data-goto-next="hola_" data-x="2000" data-y="-1300" data-z="-20500">
-            <h2>¡Yeey!</h2>
-            <p>¡Ahora sólo te falta llenar el formato y entregarlo a la institución!</p>
-            <p>Si te quedó alguna duda del proceso o de qué sigue, ingresa <a href="#aprenderProceso">aquí</a> y sigamos aprendiendo.</p>
-        </div>
-        <div id="solicitudesTipoProceso_" class="step" data-x="2000" data-y="500" data-z="-10500" data-goto-next="esFacil_" data-goto-prev="hola_">
-            <h2>Estas son las formas en las que puedes hacer tu solicitud</h2>
-            <img src="img/at.jpg"><p>Correo electrónico</p>
-            <img src="img/http.jpg"><p>Sitio web de la entidad</p>
-            <img src="img/paper.jpg"><p>Escrita y entregarla personalmente a la Unidad de Acceso a la información</p>
-            <img src="img/asking.jpg"><p>Oral</p>
-        </div>
-        <div id="esFacil_" class="step" data-x="2000" data-y="500" data-z="-20500" data-goto-next="esperar_">
-            <h2>¡Es bien fácil!</h2>
-            <ol>
-                <li>Sé claro en lo que quieres pedir.</li>
-                <li>Asegúrate que la institución sea la que correcta. </li>
-                <li>Si quieres hacerla a Municipalidades puedes utilizar <a href="http://publitopia.munisabiertas.org">Publitopia</a></li>
-                <li>Si es a otra institución puedes descargar nuestro formato de solicitud.</li>
-                <li>Si quieres puedes hablar con la PDH, para que le de seguimiento a tu proceso. </li>
-            </ol>
-        </div>
-        <div id="esperar_" class="step" data-goto-next="laRespuesta_" data-x="5000" data-y="500" data-z="-10500">
-            <h2>¡A esperar se ha dicho!</h2>
-            <p>Según la ley deben darte la información en 10 días hábiles. <br/>¡Así que saca tu calendario y cuenta los días que tienen para responderte! </p>
-        </div>
-        <div id="laRespuesta_" class="step" data-x="5000" data-y="500" data-z="-20500">
-            <h2>Llegó la respuesta ¿Cuál fue?</h2>
-        </div>
-        <div id="prorroga_" class="step" data-x="8000" data-y="500" data-z="-1500">
-            <h2>¡No entres en pánico! <br/>Solo es una prórroga</h2>
-            <p>Las instituciones pueden pedirte 10 días más para darte la información ¡No es nada malo!</p>
-            <p>Pero precaución, la prórroga solo pueden pedírtela en los primeros 8 días desde que realizaste tu solicitud.</p>
-        </div>
-        <div id="revisarInfo_">
-            <h2>¿Todo bien con tu información?</h2>
-        </div>
-        <div class="step skip" data-scale="5" data-x="-15000" data-y="-10000" data-z="-21000">
-            <img src="img/city.svg" style="position: absolute; left: 0px; top: 0px; z-index: -1; width: 9000px;" />
+    <div id="impress" data-autoplay="1000">
+        <!-- overview -->
+        <!--div id="overview_" class="step" data-x="4000" data-y="2500" data-z="0" data-scale="10"></div-->
+
+        <!-- P1 -->
+        <div id="hola_" class="step" data-x="-1000" data-y="-1000" data-goto-next="hola_" data-goto-prev="hola_">
+            <img src="img/01-01.png" />
+            <p>Aquí encontrarás el proceso, tips y todo lo que necesitas saber...</p>
+            <div class="button-center">
+                <button class="goto green" id="hacerSolicitud">Hacer una<br/>solicitud</button>
+                <button class="goto green" id="aprenderProceso">Aprender sobre el<br/>proceso</button>
+            </div>
         </div>
 
-        <!--div id="laDieron_" class="step">
-            <h2>¡Te la dieron!</h2>
-            <p>¡Esta es una muy buena señal! </p>
-            <p>Pero… te recomendamos revisar la información. Ya que pueden dártela incompleta, no entendieron tu solicitud y te dieron otra información.</p>
-            <p>Si esto te sucede puedes pedir un </p>
-            <button>RECURSO DE REVISIÓN</button>
+        <!-- P2 -->
+        <div id="aprenderProceso_" class="step" data-x="1200" data-y="500" data-z="0" data-goto-next="aprenderProceso_" data-goto-prev="hola_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <div class="button-center">
+                <button class="goto blue" id="empecemos">Lo que debes saber</button>
+                <button class="goto blue" id="opcionesSolicitud"><span>¡Pide la info!</span></button>
+                <button class="goto blue" id="esperar"><span>¡El tiempo en el que te la dan!</span></button>
+            </div>
+            <div class="button-center">
+                <button class="goto blue" id="laRespuesta"><span>¡Respuestas que te pueden dar!</span></button>
+                <button class="goto blue" id="infoMal"><span>¡Quedaste inconforme!</span></button>
+                <button class="goto blue" id="amparo"><span>¡Ayuda legal!</span></button>
+            </div>
         </div>
-        <div id="inconformidad_" class="step">
-            <p>Estas inconforme con la respuesta que te dieron porqué: </p>
-            <ul>
-                <li>La información es parcial</li>
-                <li>No es lo que pediste</li>
-                <li>Está incorrecta </li>
-                <li>Te la negaron injustificadamente </li>
-            </ul>
-            <p>Si te pasó algo así</p>
-            <p>Puedes hacer un </p>
-            <button>RECURSO DE REVISIÓN</button>
-        </div-->
-        <div id="overview_" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10"></div>
+
+        <!-- P3 -->
+        <div id="hacerSolicitud_" class="step" data-x="1000" data-y="-1000" data-z="0" data-goto-next="hazSolicitud_" data-goto-prev="hola_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>Formas para<br/>hacer tu solicitud</h2>
+            <div class="img-w-title">
+                <img src="img/03-01.png"><p>Correo electrónico o Infotepéquez</p>
+            </div>
+            <div class="img-w-title">
+                <img src="img/03-02.png"><p>Oral</p>
+            </div>
+            <div class="img-w-title">
+                <img src="img/03-03.png"><p>Escrita y entregada a la Unidad de Acceso a la información</p>
+            </div>
+            <div class="img-w-title">
+                <img src="img/03-04.png"><p>Sitio Web de la entidad</p>
+            </div>
+            <div class="button-right">
+                <button class="goto arrow-red" id="hazSolicitud">Haz tu solicitud</button>
+            </div>
+        </div>
+
+        <!-- P4 -->
+        <div id="hazSolicitud_" class="step" data-x="2000" data-y="-1000" data-z="-1000" data-goto-next="yeey_" data-goto-prev="hacerSolicitud_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2 class="blue">Haz tu solicitud</h2>
+            <div class="button-center">
+                <p>Si es a una Muni, puedes hacerla en Infotepéquez.</p>
+                <p>Si es para otra institución <br/>Descarga y llena el formato</p>
+            </div>
+            <img id="i04-01" src="img/04-01.png"/>
+            <img id="i04-02" src="img/04-02.png"/>
+            <button class="goto arrow-red" id="yeey"></button>
+        </div>
+
+        <!-- P5 -->
+        <div id="yeey_" class="step" data-x="3000" data-y="-1000" data-z="0" data-goto-next="aprenderProceso_" data-goto-prev="hazSolicitud_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <div class="col-left">
+                <p>¡Ahora sólo te falta llenar el formato, entregarlo a la institución o enviarlo por correo!</p>
+                <p>Si te quedan dudas del proceso sigue aprendiendo.</p>
+                <button class="goto arrow-red" id="aprenderProceso">Sigue aprendiendo</button>
+            </div>
+            <div class="col-right">
+                <img src="img/05-01.png"/>
+            </div>
+        </div>
+
+        <!-- P6 -->
+        <div id="empecemos_" class="step" data-x="2500" data-y="500" data-z="0" data-goto-next="sujetosObligados_" data-goto-prev="aprenderProceso_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <div class="button-center">
+                <img src="img/06-01.png" />
+                <p>La información pública es toda información que generan las instituciones que manejan recursos o dinero del Estado.</p>
+            </div>
+            <div class="button-right">
+                <button class="goto arrow-yellow" id="sujetosObligados">¿Y a quién se la pides?</button>
+            </div>
+        </div>
+
+        <!-- P7 -->
+        <div id="sujetosObligados_" class="step" data-x="4000" data-y="500" data-z="0" data-goto-next="tomaEnCuentaInfo_" data-goto-prev="empecemos_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <p>Le puedes pedir información a cualquiera que maneje, administre o ejecute dinero o bienes del Estado.</p>
+            <img src="img/07-01.png" />
+            <div class="button-center">
+                <button class="goto arrow-red" id="tomaEnCuentaInfo">¡Toma en cuenta!</button>
+            </div>
+        </div>
+
+        <!-- P8 -->
+        <div id="tomaEnCuentaInfo_" class="step" data-x="5500" data-y="500" data-z="0" data-goto-next="opcionesSolicitud_" data-goto-prev="sujetosObligados_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <div class="button-center">
+                <h2>Hay información que no te pueden dar</h2>
+                <img src="img/08-01.png" />
+            </div>
+            <div class="button-center">
+                <img id="i08-02" src="img/stop-sign.png" />
+                <p><strong>Confidencial</strong><br/>Datos personales.</p>
+                <p><b>Reservada</b><br/>Info. relacionada a seguridad y estabilidad del Estado (Restricción temporal).</p>
+            </div>
+            <div class="button-center">
+                <button class="goto arrow-green" id="opcionesSolicitud">A pedir información</button>
+            </div>
+        </div>
+        
+        <!-- P9 -->
+        <div id="opcionesSolicitud_" class="step" data-x="7000" data-y="500" data-z="0" data-goto-next="pasosSolicitud_" data-goto-prev="tomaEnCuentaInfo_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>Formas de hacer tu solicitud</h2>
+            <div class="img-w-title">
+                <img src="img/03-01.png"><p>Correo electrónico o Infotepéquez</p>
+            </div>
+            <div class="img-w-title">
+                <img src="img/03-02.png"><p>Oral</p>
+            </div>
+            <div class="img-w-title">
+                <img src="img/03-03.png"><p>Escrita y entregada a la Unidad de Acceso a la información</p>
+            </div>
+            <div class="img-w-title">
+                <img src="img/03-04.png"><p>Sitio Web de la entidad</p>
+            </div>
+            <div class="button-center">
+                <button class="goto arrow-yellow" id="pasosSolicitud">¿Cómo haces tu solicitud?</button>
+            </div>
+        </div>
+        
+        <!-- p10 -->        
+        <div id="pasosSolicitud_" class="step" data-x="8500" data-y="500" data-z="0" data-goto-next="esperar_" data-goto-prev="opcionesSolicitud_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>Pasos para hacer tu solicitud</h2>
+            <div class="col-left">
+                <ol start="1">
+                    <li>Ten claro lo que quieres pedir</li>
+                    <li>Para pedirle a una Muni puedes usar Infotepéquez</li>
+                </ol>
+                <img src="img/10-01.png"/>
+            </div>
+            <div class="col-right">
+                <ol start="3">
+                    <li>Asegúrate que sea la institución correcta</li>
+                    <li>Si es a otra institución, descarga nuestro formato y llénalo</li>
+                    <li>Notifica a la PDH para tener seguimiento</li>
+                    <li>Entrégala o envíala a la institución</li>
+                </ol>
+            </div>
+            <div class="button-right">
+                <button class="goto arrow-green" id="esperar">Tiempo de entrega</button>
+            </div>
+        </div>
+            
+        <!-- p11 -->
+        <div id="esperar_" class="step" data-x="0" data-y="4800" data-z="0" data-goto-next="laRespuesta_" data-goto-prev="pasosSolicitud_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>¡A esperar se ha dicho!</h2>
+            <p>Deben darte la información máximo en 10 días hábiles.</p>
+            <img src="img/11-01.png" />
+            <div class="button-right">
+                <button class="goto arrow-red" id="laRespuesta">Respuestas que te pueden dar</button>
+            </div>
+        </div>
+
+        <!-- p12 -->
+        <div id="laRespuesta_" class="step" data-x="1200" data-y="4500" data-z="0" data-goto-next="laRespuesta_" data-goto-prev="esperar_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2 class="green">Tipos de respuestas</h2>
+            <div class="button-center">
+                <button class="goto blue" id="loQueDieron">Te dan la info</button>
+                <button class="goto blue" id="sinRespuesta">No te responden</button>
+                <button class="goto blue" id="nieganInformacion">No te dan la info</button>
+            </div>
+            <div class="button-center">
+                <button class="goto blue" id="noExiste">Te dicen que</br>no existe</button>
+                <button class="goto blue" id="prorroga">Te piden prórroga</button>
+            </div>
+        </div>
+        
+        <!-- p13 -->
+        <div id="loQueDieron_" class="step" data-x="3800" data-y="1500" data-z="0" data-goto-next="loQueDieron_" data-goto-prev="laRespuesta_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>La info. que te dan puede estar</h2>
+            <div class="col-left">
+                <img id="i13-01" src="img/13-01.png" />
+                <button class="goto blue" id="infoBien">Bien</button>
+                <img src="img/13-03.png" />
+            </div>
+            <div class="col-right">
+                <img id="i13-02" src="img/13-02.png" />
+                <button class="goto blue" id="infoMal">Mal</button>
+                <img src="img/13-04.png" />
+            </div>
+        </div>
+
+        <!-- p14 -->        
+        <div id="infoBien_" class="step" data-x="2500" data-y="1500" data-z="0" data-goto-next="infoBien_" data-goto-prev="loQueDieron_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>Todo en orden</h2>
+            <p>Si todo sale bien, recuerda que solicitar información implica una gran responsabilidad. </p>
+            <img src="img/14-01.png" />
+        </div>
+        
+        <!-- p15 -->
+        <div id="infoMal_" class="step" data-x="4500" data-y="3000" data-z="0" data-goto-next="recursoRevision_" data-goto-prev="infoBien_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>Estas inconforme porque...</h2>
+            <img src="img/15-01.png" />
+            <div class="button-center">
+                <p>Si te paso algo así, puedes presentar un</p>
+                <button class="goto arrow-green" id="recursoRevision">Recurso de Revisión</button>
+            </div>
+        </div>
+        
+        <!-- p16 -->
+        <div id="sinRespuesta_" class="step" data-x="2500" data-y="4000" data-z="0" data-goto-next="agotaronOtros10_" data-goto-prev="laRespuesta_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <div class="col-left">
+                <img src="img/16-01.png" />
+            </div>
+            <div class="col-right">
+                <h2>No obtuviste respuesta</h2>
+                <p>Si pasa esto, la institución entra en periodo de Afirmativa ficta, que es la obligación de darte la info en los próximos 10 días hábiles sin excusa.</p>
+                <p>¡Consejos!</p>
+                <div class="col-left small">
+                    <p>Avísale a la PDH para que te ayuden en el proceso.</p>
+                </div>
+                <div class="col-right small">
+                    <p>Revisa que si lo hayan recibido.</p>
+                </div>
+                <button class="goto arrow-green" id="agotaronOtros10">¿Y si no te la dan?</button>
+            </div>
+        </div>
+        
+        <!-- p17 -->
+        <div id="nieganInformacion_" class="step" data-x="2500" data-y="4800" data-z="0" data-goto-next="nieganInformacion_" data-goto-prev="laRespuesta_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>Te niegan la información</h2>
+            <p class="greenNum">1</p><p>Te dicen que no está clara la solicitud</p><button class="goto green" id="hacerSolicitud">Vuelve a hacerla</button>
+            <p class="greenNum">2</p><p>Te dicen que es confidencial o reservada</p><button class="goto green" id="cualEs">Revisa si aplica</button>
+            <p class="greenNum">3</p><p>Pero no te dan una razón válida</p><button class="goto green" id="recursoRevision">Presenta un Recurso de Revisión</button>
+        </div>
+            
+
+        <!-- p18 -->
+        <div id="noExiste_" class="step"  data-x="-1000" data-y="6000" data-z="0" data-goto-next="recursoRevision_" data-goto-prev="laRespuesta_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>Te dicen que no existe</h2>
+            <img src="img/18-01.png" />
+            <p>¡Pero! si sabes que existe y es la entidad correcta, puedes presentar un</p>
+            <button class="goto arrow-green" id="recursoRevision">Recurso de<br/>revisión</button>
+        </div>
+        
+        <!-- p19 -->
+        <div id="prorroga_" class="step" data-x="4100" data-y="5500" data-z="0" data-goto-next="tiposRespuestas_" data-goto-prev="laRespuesta_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <p class="p1">Las instituciones pueden pedirte 10 días más para darte la información</p>
+            <img src="img/19-01.png" />
+            <p class="p2">Sólo pueden pedírtela en los primeros 8 días después de haber hecho la solicitud.</p>
+            <button class="goto arrow-green" id="tiposRespuestas">¿y ahora qué?</button>
+        </div>
+
+        <!-- p20 -->
+        <div id="tiposRespuestas_" class="step" data-x="5500" data-y="5500" data-z="0" data-goto-next="tiposRespuestas_" data-goto-prev="prorroga_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>Tipos de<br/>respuestas</h2>
+            <div class="button-center">
+                <button class="goto blue" id="loQueDieron">Te dan la info</button>
+                <button class="goto blue" id="sinRespuesta">No te responden</button>
+                <button class="goto blue" id="noExiste">Te dicen que no existe</button>
+            </div>
+        </div>
+
+        <!-- p21 -->
+        <div id="recursoRevision_" class="step" data-x="5500" data-y="3000" data-z="0" data-goto-next="queLlevaRR_" data-goto-prev="infoMal_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <div class="col-left">
+                <h2>Recurso de Revisión</h2>
+                <p>Es una figura legal que garantiza que las instituciones darán la información.</p>
+                <p>¿Y qué hago?</p>
+            </div>
+            <div class="col-right">
+                <img src="img/21-01.png">
+            </div>
+            <div class="button-center">
+                <button class="goto arrow-green" id="queLlevaRR">¿Cómo lo hago?</button>
+            </div>
+        </div>
+
+        <!-- p22 -->
+        <div id="queLlevaRR_" class="step" data-x="7000" data-y="3000" data-z="0" data-goto-next="todoEnOrden_" data-goto-prev="recursoRevision_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>¿Qué debe llevar un Recurso de Revisión?</h2>
+            <div class="col-left">
+                <p>1. Nombre de la entidad a la que se hizo la solicitud.</p>
+                <p>3. Fecha en la que te dijeron que no te darían la info.</p>
+                <p>5. Agrega otros elementos que consideres importantes.</p>
+            </div>
+            <div class="col-center">
+                <img src="img/attention-sign.png" />
+            </div>
+            <div class="col-right">
+                <p>2. Tu nombre y dirección o de quien solicitó.</p>            
+                <p>4. Explicar por que estás poniendo un recurso y qué es lo que quieres que te den.</p>
+                <button class="goto arrow-green" id="todoEnOrden">¿Cuánto tiempo tengo?</button>
+            </div>
+            <div class="button-center">
+                <p class="redText">Descarga formato</p>
+            </div>
+            <div class="button-center">
+                <button class="goto red">aquí</button>
+            </div>
+        </div>
+
+        <!-- p23 -->
+        <div id="todoEnOrden_" class="step" data-x="7500" data-y="2100" data-z="0" data-goto-next="tiempoAgoto_" data-goto-prev="queLlevaRR_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <div class="col-left">
+                <h2>¡Todo en orden!</h2>
+                <div class="col-left">
+                    <p><bold>Tiempo para presentarlo</bold></p>
+                    <p>Tienes 15 días despúes que te dieron respuesta</p>
+                </div>
+                <div class="col-right">
+                    <p><bold>Tiempo de respuesta</bold></p>
+                    <p>Tienen 5 días después que lo presentaste</p>
+                </div>
+                <button class="goto arrow-green" id="tiempoAgoto"/>El tiempo se agotó</button>
+            </div>
+            <div class="col-right">
+                <img src="img/23-01.png" />
+            </div>
+        </div>
+        
+        <!-- p24 -->
+        <div id="tiempoAgoto_" class="step" data-x="9200" data-y="2500" data-z="0" data-goto-next="tiempoAgoto_" data-goto-prev="todoEnOrden_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>El tiempo se agotó</h2>
+            <p>Al final del plazo, te pueden responder de la siguiente manera.</p>
+            <div class="button-center">
+                <button class="goto blue" id="noAceptanDarInfo">No aceptan darte la información</button>
+                <button class="goto blue" id="modificanDecision">Aceptan darte la información</button>
+            </div>
+        </div>
+        
+        <!-- p25 -->
+        <div id="noAceptanDarInfo_" class="step" data-x="8300" data-y="3200" data-z="0" data-goto-next="amparo_" data-goto-prev="tiempoAgotado_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>No aceptan darte la info</h2>
+            <div class="col-left">
+                <p>Si crees que los argumentos no son válidos, puedes iniciar un proceso jurídico con un:</p>
+                <button class="goto green" id="amparo">Amparo</button>
+            </div>
+            <div class="col-right">
+                <img src="img/25-01.png" />
+            </div>
+        </div>
+
+        <!-- p26 -->
+        <div id="modificanDecision_" class="step" data-x="9500" data-y="1500" data-z="0" data-goto-next="modificanDecision_" data-goto-prev="tiempoAgoto_">
+            <h2>Modifican la desición y aceptan darte la información</h2>
+            <img src="img/26-01.png" />
+        </div>
+
+        <!-- p27 -->
+        <div id="amparo_" class="step" data-x="6800" data-y="4100" data-z="0" data-goto-next="tomaEnCuenta_" data-goto-prev="noAceptanDarInfo_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>Amparo</h2>
+            <div class="col-left">
+                <p>Es un recurso legal que busca que se cumpla tu derecho de acceder a la información.</p>
+                <p class="small">(art. 8, Ley de amparo, exhibición personal y de constitucionalidad)</p>
+            </div>
+            <div class="col-right">
+                <img src="img/27-01.png" />
+            </div>
+            <button class="goto arrow-yellow" id="tomaEnCuenta">Cosas importantes</button>
+        </div>
+
+        <!-- p28 -->
+        <div id="tomaEnCuenta_" class="step" data-x="7900" data-y="4800" data-z="0" data-goto-next="tomaEnCuenta_" data-goto-prev="amparo_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>Toma en cuenta</h2>
+            <div class="col-left">
+                <p>Este proceso lo debe llevar un abogado colegiado.  Es importante tener toda la documentación en orden. Puede llevarse bastante tiempo antes que te resuelvan.</p>
+                <img src="img/stop-sign.png"/>
+            </div>
+            <div class="col-right">
+                <img src="img/28-01.png" />
+            </div>
+        </div>
+        
+        <!-- p29 -->
+        <div id="agotaronOtros10_" class="step" data-x="3800" data-y="4300" data-z="0" data-goto-next="agotaronOtros10_" data-goto-prev="sinRespuesta_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <h2>¡Se agotaron los otros 10 días y nada!</h2>
+            <img src="img/29-01.png"/>
+        </div>
+        
+        <!-- p30 -->
+        <div id="cualEs_" class="step" data-x="9000" data-y="4500" data-z="0" data-goto-next="cualEs_" data-goto-prev="nieganInformacion_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <div>
+                <div class="col-left">
+                    <p>Confidencial<br/>Datos personales (Nunca te pueden dar)</p>
+                </div>
+                <div class="col-right">
+                    <p>Reservada<br/>Info relacionada a seguridad y estabilidad del Estado (Su restricción es temporal).</p>
+                </div>
+                <h2>¿y entonces?<br/>¿Es una de estas?</h2>
+                <div class="col-left">
+                    <img id="i30-01" src="img/13-01.png" />
+                    <button class="goto blue" id="esConfidencial">Sí</button>
+                </div>
+                <div class="col-right">
+                    <img id="i30-02" src="img/13-02.png" />
+                    <button class="goto blue" id="recursoRevision">No</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- p31 -->
+        <div id="esConfidencial_" class="step" data-x="10000" data-y="4500" data-z="0" data-goto-next="esConfidencial_" data-goto-prev="cualEs_">
+            <div class="button-right">
+                <button class="goto home" id="hola"></button>
+            </div>
+            <div class="col-left">
+                <p>Si la información es confidencial o reservada, es con el propósito de protegerte y no de negarte el derecho.</p>
+            </div>
+            <div class="col-right">
+                <img src="img/31-01.png" />
+            </div>
+        </div>
+        
+        
+        <!--backgrounds-->
+         <div id="bglu" class="step skip imb" data-scale="11" data-x="-11500" data-y="-10000" data-z="-21000" >
+            <img src="img/city.svg" style="position: absolute; left: 0px; top: 0px; z-index: -1; width: 40em;" />
+        </div>
+        <div id="bgru" class="step skip imb" data-scale="10" data-x="9000" data-y="-10000" data-z="-21000">
+            <img src="img/city.svg" style="position: absolute; left: 0px; top: 0px; z-index: -1; width: 40em;" />
+        </div>
+         <div id="bgld" class="step skip imb" data-scale="10" data-x="9000" data-y="4500" data-z="-21000">
+            <img src="img/city.svg" style="position: absolute; left: 0px; top: 0px; z-index: -1; width: 40em;" />
+        </div>
+        <div id="bgrd" class="step skip imb" data-scale="11" data-x="-11500" data-y="4500" data-z="-21000">
+            <img src="img/city.svg" style="position: absolute; left: 0px; top: 0px; z-index: -1; width: 40em;" />
+        </div>       
+
     </div>
     <script src="js/impress.js"></script>
     <script>
@@ -154,6 +553,19 @@
                 });
             })(i);
         }
+        document.getElementById('bglu').addEventListener('impress:stepenter', function(event){
+             history.back();return false;
+        }, false);
+        document.getElementById('bgru').addEventListener('impress:stepenter', function(event){
+             history.back();return false;
+        }, false);
+        document.getElementById('bgld').addEventListener('impress:stepenter', function(event){
+             history.back();return false;
+        }, false);
+        document.getElementById('bgrd').addEventListener('impress:stepenter', function(event){
+             history.back();return false;
+        }, false);
+
      </script>
 </body>
 </html>
