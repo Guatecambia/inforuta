@@ -388,6 +388,11 @@ button.arrow-green {
     background-size:100%;
     background-repeat: no-repeat;
 }
+#hazSolicitud_ .red {
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+}
 
 /*p5*/
 #yeey_ .col-left {
