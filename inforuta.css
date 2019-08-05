@@ -576,6 +576,15 @@ button.arrow-green {
 #sinRespuesta_ .small {
     font-size:0.7em;
 }
+#sinRespuesta_ .button-center {
+    width: 100%;
+}
+#sinRespuesta_ .button-center .blue {
+    font-size:0.5em;
+    width:220px;
+    height:90px;
+    vertical-align:top;
+}
 /*p17*/
 #nieganInformacion_ .greenNum {
     color: #4bdd67;
